@@ -9,13 +9,13 @@ A mini sql engine which can run a subset of SQL queries using command line inter
    - There should be no tab separation or space separation, but the values can be in double quotes or without quotes.
 2. All the elements in files should be integers.
 3. A file named: metadata.txt should be given which will have the following structure for each table:
-   <begin_table>
+   ```<begin_table>
     <table_name>
     <attribute 1>
     ..
     ..
     <attribute N>
-    <end_table>
+    <end_table>```
 4. Column names should be unique among all the tables. So column names should not​ preceded by table names in SQL queries.
 
 ## Type of Queries
