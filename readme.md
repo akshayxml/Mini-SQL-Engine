@@ -15,7 +15,7 @@ A mini sql engine which can run a subset of SQL queries using command line inter
     ..
     ..
     <attribute N>
-    <end_table>```
+    <end_table>
 4. Column names should be unique among all the tables. So column names should not​ preceded by table names in SQL queries.
 
 ## Type of Queries
